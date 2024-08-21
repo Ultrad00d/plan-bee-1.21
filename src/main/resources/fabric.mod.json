@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "plan_bee",
+	"version": "${version}",
+	"name": "Plan Bee",
+	"description": "This mod adds new bee related content, such as: bee types, beehives prioritization and upgrades and new honey products.",
+	"authors": [
+		"Ultrad00d"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/plan_bee/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ultradood.planbee.PlanBee"
+		],
+		"client": [
+			"net.ultradood.planbee.PlanBeeClient"
+		],
+		"fabric-datagen": [
+			"net.ultradood.planbee.PlanBeeDataGenerator"
+		]
+	},
+	"mixins": [
+		"plan_bee.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

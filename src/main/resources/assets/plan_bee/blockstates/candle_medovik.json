@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "plan_bee:block/candle_medovik"
+    },
+    "lit=true": {
+      "model": "plan_bee:block/candle_medovik_lit"
+    }
+  }
+}

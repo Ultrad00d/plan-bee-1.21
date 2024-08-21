@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "plan_bee:block/medovik_side",
+        "bottom": "plan_bee:block/medovik_bottom",
+        "top": "plan_bee:block/medovik_top",
+        "side": "plan_bee:block/medovik_side",
+        "inside": "plan_bee:block/medovik_inner"
+    },
+    "elements": [
+        {   "from": [ 13, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

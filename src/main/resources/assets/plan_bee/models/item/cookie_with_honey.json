@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plan_bee:item/cookie_with_honey"
+  }
+}
